@@ -76,7 +76,7 @@
     </div>
 
     <audio id="spinAudio" preload="auto">
-        <source src="./audio/spin-and-stop.mp3" type="audio/mpeg" />
+        <source src="./audio/spin2.mp3" type="audio/mpeg" />
     </audio>
 
 </body>
@@ -141,7 +141,7 @@
                         "</div></div>");
                     $(".wheel").find(".question:first-of-type").slideDown("fast");
                 }
-                if (++spins < 30) {
+                if (++spins < 50) {
                     // set a new, slightly longer interval for the next update. Makes it seem like the wheel is slowing down
                     setTimeout(update, 10 + spins * 2);
                 } else {
